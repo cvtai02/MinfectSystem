@@ -72,7 +72,7 @@ export const apps = [
     cwd: path.join(DESKTOP, 'VGen'),
     command: 'pnpm',
     args: ['dev:ui'],
-    port: 5173,
+    port: 5200,
     envFile: null,
     logFile: path.join(DESKTOP, 'VGen', 'ui-dev.log'),
     errLogFile: path.join(DESKTOP, 'VGen', 'ui-dev.err.log'),
